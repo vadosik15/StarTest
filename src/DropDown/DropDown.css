@@ -1,0 +1,36 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+  min-width: 200px;
+  height: max-content;
+}
+
+.selected-option {
+  padding: 8px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.dropdown-options {
+  padding: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top: none;
+  width: 100%;
+  z-index: 1;
+}
+
+.dropdown-options li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.dropdown-options li:hover {
+  background-color: #f0f0f0;
+}
